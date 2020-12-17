@@ -34,7 +34,7 @@
 
 1. opencore 升级到0.6.4
 2. 通过攻击修改了BIOS的CFG-LOCK，DVMT改为64M,config相应设置AppleXcpmCfgLock不再勾选，据说有利于深度睡眠。具体修改过程参考 [https://www.jianshu.com/p/d7cfaae60509]
-
+3. 加入了SSDT-HPET补丁，用(SSDTTime)[https://github.com/corpnewt/SSDTTime]生成，不过声卡功能并没有什么改进。声卡可能要参考这篇了[https://blog.daliansky.net/Use-AppleALC-sound-card-to-drive-the-correct-posture-of-AppleHDA.html]，不过有点复杂啊。
 
 ### 正常工作：
 
