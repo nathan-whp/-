@@ -30,6 +30,12 @@
 
 硬盘3：KING SHARE M300064G
 
+### 2020-12-17
+
+1. opencore 升级到0.6.4
+2. 通过攻击修改了BIOS的CFG-LOCK，DVMT改为64M,config相应设置AppleXcpmCfgLock不再勾选，据说有利于深度睡眠。具体修改过程参考 [https://www.jianshu.com/p/d7cfaae60509]
+
+
 ### 正常工作：
 
 1.变频 HWP
